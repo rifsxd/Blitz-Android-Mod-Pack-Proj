@@ -1,0 +1,49 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 1.000000
+    emissionVector: [0.000000, 0.000000, 0.010000]
+    emissionVectorInverted: true
+    name: "wave"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [0, 1, 0, 0]
+    alphaOverLife: [0.000000, 0.000000, 0.366300, 0.364000, 0.538800, 0.364000, 0.990000, 0.000000]
+    blending: 1
+    degradeStrategy: 2
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: false
+    endTime: 0.100000
+    force0: [0.000000, 0.000000, 0.100000]
+    forceCount: 1
+    forceOverLife0: [0.000000, 1.000000, 0.990000, 0.000000]
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 6.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "single"
+    life: 3.000000
+    loopEndTime: 4.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "water4"
+    number: 300.000000
+    particleOrientation: 8
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    scaleVelocityBase: 0.000000
+    scaleVelocityFactor: 0.000000
+    size: [1.000000, 1.000000]
+    sizeOverLifeXY: [0.000000, [1.000000, 1.000000], 1.000000, [5.000000, 5.000000]]
+    spin: 5.000000
+    spinVariation: 5.000000
+    sprite: "../../../../../Data/Gfx/Particles/alpha/rich_water"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 0.010000

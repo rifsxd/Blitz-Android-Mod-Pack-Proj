@@ -1,0 +1,46 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 60.000000
+    emissionVector: [-0.500000, -1.000000, 0.000000]
+    emissionVectorInverted: true
+    name: "fire_tank2"
+    shortEffect: false
+    size: [100.000000, 0.000000, 20.000000]
+    type: "rect"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.198653, 1.000000, 1.000000, 0.000000]
+    colorOverLife: [0.000000, [255.000000, 75.000000, 39.000000, 255.000000], 0.992600, [255.000000, 196.000000, 148.000000, 255.000000]]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    dstBlendFactor: "BLEND_ONE"
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: false
+    endTime: 1000.000000
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    inheritPosition: true
+    isLong: true
+    isLooped: false
+    layerType: "particles"
+    life: 1.000000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: true
+    loopVariation: 0.000000
+    name: "sparks1"
+    number: 10.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.010000
+    size: [2.000000, 2.000000]
+    sprite: "../../../../../../../Data/Gfx/Particles/UI/Blur"
+    srcBlendFactor: "BLEND_SRC_ALPHA"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 100.000000
+    velocityVariation: 15.000000

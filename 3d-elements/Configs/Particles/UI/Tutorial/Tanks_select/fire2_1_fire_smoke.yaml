@@ -1,0 +1,135 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 60.000000
+    emissionVector: [-0.800000, -1.000000, 0.000000]
+    emissionVectorInverted: true
+    name: "fire_smoke"
+    shortEffect: false
+    size: [50.000000, 0.000000, 20.000000]
+    type: "rect"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.253012, 0.496420, 1.000000, 0.000000]
+    angle: 90.000000
+    angleVariation: 90.000000
+    colorOverLife: [95.680931, 94.902725, 100.346298, 255.000000]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    dstBlendFactor: "BLEND_ONE_MINUS_SRC_ALPHA"
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: false
+    endTime: 1000.000000
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    inheritPosition: true
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 3.000000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: true
+    loopVariation: 0.000000
+    name: "smoke"
+    number: 20.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    size: [50.000000, 50.000000]
+    sizeVariation: [20.000000, 20.000000]
+    spin: 30.000000
+    spinVariation: 30.000000
+    sprite: "../../../../../../../Data/Gfx/Particles/UI/fog"
+    srcBlendFactor: "BLEND_SRC_ALPHA"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 30.000000
+    velocityVariation: 30.000000
+layer1:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.140000, 0.800000, 0.476764, 0.796496, 0.757315, 0.804672, 1.000000, 0.000000]
+    angle: 90.000000
+    angleVariation: 90.000000
+    colorOverLife: [242.015564, 159.311279, 70.902718, 255.000000]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    dstBlendFactor: "BLEND_ONE"
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: true
+    endTime: 1000.000000
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 20.000000
+    inheritPosition: true
+    isLong: true
+    isLooped: false
+    layerType: "particles"
+    life: 1.500000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "fire2"
+    number: 20.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    size: [40.000000, 40.000000]
+    sizeVariation: [20.000000, 20.000000]
+    spin: 30.000000
+    spinVariation: 30.000000
+    sprite: "../../../../../../../Data/Gfx/Particles/UI/smoke"
+    srcBlendFactor: "BLEND_SRC_ALPHA"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 15.000000
+    velocityVariation: 15.000000
+layer2:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.345955, 0.314015, 0.681583, 0.157619, 1.000000, 0.000000]
+    angle: 90.000000
+    angleVariation: 90.000000
+    colorOverLife: [0.000000, [255.000000, 255.000000, 255.000000, 255.000000], 0.475649, [69.743187, 74.435791, 83.821007, 255.000000]]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    dstBlendFactor: "BLEND_ONE"
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: true
+    endTime: 1000.000000
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 10.000000
+    inheritPosition: true
+    isLong: true
+    isLooped: false
+    layerType: "particles"
+    life: 1.500000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "fire2"
+    number: 20.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    size: [30.000000, 30.000000]
+    sizeVariation: [20.000000, 20.000000]
+    spin: 30.000000
+    spinVariation: 30.000000
+    sprite: "../../../../../../../Data/Gfx/Particles/UI/fire1"
+    srcBlendFactor: "BLEND_SRC_ALPHA"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 15.000000
+    velocityVariation: 15.000000

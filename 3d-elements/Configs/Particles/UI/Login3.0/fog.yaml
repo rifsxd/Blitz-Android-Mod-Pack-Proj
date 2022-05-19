@@ -1,0 +1,54 @@
+emitter:
+    emissionAngle: 1.000000
+    emissionRange: 10.000000
+    emissionVector: [-1.000000, -0.150000, 0.000000]
+    emissionVectorInverted: true
+    name: "fog"
+    radius: 1.000000
+    shortEffect: false
+    size: [0.000000, 100.000000, 1000.000000]
+    type: "rect"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.308571, 0.536470, 0.746667, 0.519882, 0.990000, 0.000000]
+    angle: 1.000000
+    angleVariation: 360.000000
+    blending: 1
+    colorOverLife: [162.000000, 158.000000, 123.000000, 255.000000]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: false
+    endTime: 10000.000000
+    force0: [0.000000, 0.000000, 0.500000]
+    forceCount: 1
+    forceOverLife0: [0.000000, 1.000000, 0.990000, 0.800000]
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 10.000000
+    inheritPosition: true
+    isLong: true
+    isLooped: false
+    layerType: "particles"
+    life: 7.000000
+    loopEndTime: 0.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "fog"
+    number: 6.000000
+    numberVariation: 2.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.040000
+    size: [180.000000, 180.000000]
+    sizeOverLifeXY: [0.000000, [0.000000, 0.000000], 1.000000, [1.000000, 1.000000]]
+    sizeVariation: [20.000000, 20.000000]
+    sprite: "../../../../Gfx/Particles/UI/Login3.0/fog_white"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 20.000000
+    velocityVariation: 20.000000

@@ -1,0 +1,49 @@
+emitter:
+    size: [0.000000, 0.000000, 0.000000]
+    name: "lod"
+    type: "point"
+    emissionVectorInverted: true
+    shortEffect: false
+    emissionAngle: 0.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionRange: 0.000000
+layer0:
+    name: "Lod"
+    enableFog: true
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/fog"
+    type: "layer"
+    isLong: false
+    layerType: "particles"
+    blending: 1
+    degradeStrategy: 0
+    pivotPoint: [0.000000, 0.000000]
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    scaleVelocityBase: 0.000000
+    forceCount: 1
+    scaleVelocityFactor: 0.000000
+    life: 4.000000
+    number: 50.000000
+    size: [1.000000, 1.000000]
+    velocityVariation: 10.000000
+    sizeOverLifeXY: [0.000000, [1.000000, 3.000000], 1.000000, [4.000000, 4.000000]]
+    velocity: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.147400, 0.094900, 0.990000, 0.000000]
+    randomSpinDirection: true
+    alphaOverLife: [0.000000, 0.000000, 0.098200, 0.901800, 0.780700, 0.870200, 1.000000, 0.000000]
+    colorOverLife: [179.000000, 132.000000, 81.000000, 255.000000]
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 25.000000
+    randomFrameOnStart: false
+    loopSpriteAnimation: false
+    deltaTime: 0.000000
+    startTime: 0.000000
+    endTime: 0.060000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    activeLODS: [0, 0, 1, 0]
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -10.000000]

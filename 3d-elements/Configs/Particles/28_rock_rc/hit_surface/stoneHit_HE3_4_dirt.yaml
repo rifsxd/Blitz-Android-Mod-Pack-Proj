@@ -1,0 +1,130 @@
+emitter:
+    size: [0.000000, 0.000000, 0.000000]
+    name: "dirt"
+    type: "point"
+    emissionVectorInverted: true
+    shortEffect: false
+    emissionAngle: 0.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionRange: 30.000000
+layer0:
+    name: "dirt"
+    enableFog: true
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/Dirt_exp_white"
+    type: "layer"
+    lifeVariation: 1.000000
+    isLong: false
+    layerType: "particles"
+    blending: 1
+    degradeStrategy: 2
+    pivotPoint: [0.000000, 0.000000]
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    scaleVelocityBase: 0.000000
+    forceCount: 1
+    scaleVelocityFactor: 0.000000
+    life: 1.000000
+    number: 100.000000
+    size: [1.250000, 1.250000]
+    sizeOverLifeXY: [0.000000, [1.000000, 2.000000], 1.000000, [4.000000, 4.000000]]
+    velocity: 10.000000
+    forceOverLife0: [0.000000, 1.000000, 0.990000, 0.000000]
+    velocityOverLife: [0.000000, 0.300000, 0.310500, 0.136600]
+    randomSpinDirection: true
+    alphaOverLife: [0.000000, 0.000000, 0.101800, 0.007300, 0.287700, 0.854000, 0.543900, 0.157700, 1.000000, 0.000000]
+    colorOverLife: [179.000000, 132.000000, 81.000000, 255.000000]
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 25.000000
+    randomFrameOnStart: false
+    loopSpriteAnimation: false
+    deltaTime: 0.000000
+    startTime: 0.030000
+    endTime: 0.060000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    activeLODS: [0, 1, 0, 0]
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -3.000000]
+layer1:
+    name: "dust"
+    enableFog: true
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/o2SMOKEB_one"
+    type: "layer"
+    isLong: false
+    layerType: "particles"
+    blending: 1
+    degradeStrategy: 2
+    pivotPoint: [0.000000, 0.000000]
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    scaleVelocityBase: 0.000000
+    forceCount: 1
+    scaleVelocityFactor: 0.000000
+    life: 4.000000
+    number: 80.000000
+    size: [1.250000, 1.250000]
+    velocityVariation: 8.000000
+    sizeOverLifeXY: [0.000000, [1.000000, 3.000000], 1.000000, [4.000000, 4.000000]]
+    velocity: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.147400, 0.094900, 0.990000, 0.000000]
+    randomSpinDirection: true
+    alphaOverLife: [0.000000, 0.000000, 0.091200, 0.908800, 1.000000, 0.000000]
+    colorOverLife: [179.000000, 132.000000, 81.000000, 255.000000]
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 25.000000
+    randomFrameOnStart: true
+    loopSpriteAnimation: false
+    deltaTime: 0.000000
+    startTime: 0.000000
+    endTime: 0.060000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    activeLODS: [0, 1, 0, 0]
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -10.000000]
+layer2:
+    name: "dust2"
+    enableFog: true
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/fog"
+    type: "layer"
+    isLong: false
+    layerType: "particles"
+    blending: 1
+    degradeStrategy: 2
+    pivotPoint: [0.000000, 0.000000]
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    scaleVelocityBase: 0.000000
+    forceCount: 1
+    scaleVelocityFactor: 0.000000
+    life: 4.000000
+    number: 80.000000
+    size: [1.250000, 1.250000]
+    velocityVariation: 10.000000
+    sizeOverLifeXY: [0.000000, [1.000000, 3.000000], 1.000000, [4.000000, 4.000000]]
+    velocity: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.147400, 0.094900, 0.990000, 0.000000]
+    randomSpinDirection: true
+    alphaOverLife: [0.000000, 0.000000, 0.098200, 0.901800, 1.000000, 0.000000]
+    colorOverLife: [179.000000, 132.000000, 81.000000, 255.000000]
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 25.000000
+    randomFrameOnStart: false
+    loopSpriteAnimation: false
+    deltaTime: 0.000000
+    startTime: 0.000000
+    endTime: 0.060000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    activeLODS: [0, 1, 0, 0]
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -10.000000]

@@ -1,0 +1,81 @@
+emitter:
+    emissionAngle: 118.713600
+    emissionRange: 0.000000
+    emissionVector: [-0.000000, -0.000000, 1.000000]
+    emissionVectorInverted: true
+    name: "exp"
+    shortEffect: true
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 1, 1, 0]
+    animSpeedOverLife: [0.000000, 0.500000, 0.182500, 0.503600, 0.328100, 0.985400]
+    blending: 2
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: false
+    enableFrameBlend: false
+    endTime: 0.060000
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 60.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 0.200000
+    loopEndTime: 6.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "exp1"
+    number: 52.691700
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 0.000000
+    scaleVelocityFactor: 0.000000
+    size: [1.000000, 1.000000]
+    sizeOverLifeXY: [0.000000, [3.000000, 3.000000], 1.000000, [4.000000, 4.000000]]
+    sprite: "../../../../../../Data/Gfx/Particles/additive/hit_anim"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 0.010000
+layer1:
+    activeLODS: [1, 1, 1, 0]
+    animSpeedOverLife: [0.000000, 0.500000, 0.182500, 0.503600, 0.328100, 0.985400]
+    blending: 2
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: false
+    enableFrameBlend: false
+    endTime: 0.060000
+    force0: [0.000000, 0.000000, 6.000000]
+    forceCount: 1
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 60.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 0.400000
+    loopEndTime: 6.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "exp2"
+    number: 52.691700
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 0.000000
+    scaleVelocityFactor: 0.000000
+    size: [1.200000, 1.200000]
+    sizeOverLifeXY: [0.000000, [1.000000, 1.000000], 1.000000, [4.000000, 4.000000]]
+    sprite: "../../../../../../Data/Gfx/Particles/additive/exp_anim_fire"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 0.010000

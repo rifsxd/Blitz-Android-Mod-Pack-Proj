@@ -1,0 +1,41 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 0.000000
+    emissionVector: [0.000000, 0.000000, 0.000000]
+    emissionVectorInverted: false
+    name: "flag"
+    shortEffect: true
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    blending: 1
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 2
+    enableFog: true
+    enableFrameBlend: true
+    endTime: 1000.000000
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 30.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "single"
+    life: 1000.100000
+    loopEndTime: 10000.000000
+    loopSpriteAnimation: true
+    loopVariation: 0.000000
+    name: "flag"
+    particleOrientation: 1
+    pivotPoint: [-0.650000, 0.900000]
+    randomFrameOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 1.000000
+    size: [80.000000, 193.000000]
+    sprite: "../../../../../../../Data/Gfx/Particles/UI/Login3.0/sauron_2"
+    startTime: 0.000000
+    type: "layer"
+

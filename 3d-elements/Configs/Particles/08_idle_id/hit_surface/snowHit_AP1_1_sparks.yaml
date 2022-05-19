@@ -1,0 +1,51 @@
+emitter:
+    size: [0.000000, 0.000000, 0.000000]
+    name: "sparks"
+    type: "point"
+    emissionVectorInverted: true
+    shortEffect: false
+    emissionAngle: 0.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionRange: 100.000000
+layer0:
+    name: "sparks"
+    enableFog: false
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/Iskr"
+    type: "layer"
+    lifeVariation: 0.200000
+    isLong: true
+    layerType: "particles"
+    blending: 3
+    degradeStrategy: 0
+    pivotPoint: [0.000000, 0.000000]
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    scaleVelocityBase: 0.100000
+    forceCount: 1
+    scaleVelocityFactor: 0.400000
+    life: 0.400000
+    number: 200.000000
+    size: [0.020000, 0.020000]
+    sizeVariation: [0.010000, 0.010000]
+    velocity: 3.000000
+    velocityVariation: 10.000000
+    forceOverLife0: [0.000000, 1.000000, 1.000000, 0.000000]
+    velocityOverLife: [0.000000, 1.000000, 0.093000, 0.560100, 0.996500, 0.507600]
+    randomSpinDirection: false
+    alphaOverLife: 0.311900
+    colorOverLife: [255.000000, 233.000000, 222.000000, 255.000000]
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    randomFrameOnStart: false
+    loopSpriteAnimation: true
+    deltaTime: 0.000000
+    startTime: 0.000000
+    endTime: 0.100000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    activeLODS: [1, 1, 0, 0]
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -10.000000]

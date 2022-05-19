@@ -1,0 +1,140 @@
+emitter:
+    emissionRange: 100.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionVectorInverted: true
+    generateOnSurface: false
+    name: "dirt"
+    shockwaveMode: "shockDisabeld"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaRemapLoopCount: 1.000000
+    applyGlobalForces: false
+    autoFPS: false
+    backwardTurbulenceProbability0: 0
+    backwardTurbulenceProbability1: 0
+    blending: 1
+    colorOverLife: [226.000000, 179.000000, 112.000000, 255.000000]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    depthDifferenceSlope: 2.000000
+    dragForceBoxSize0: [1.000000, 1.000000, 1.000000]
+    dragForceBoxSize1: [1.000000, 1.000000, 1.000000]
+    dragForceCount: 2
+    dragForceInfinityRange0: true
+    dragForceInfinityRange1: true
+    dragForceLine1: [0.000000, [0.000000, 0.000000, 0.000000], 0.453745, [29.812500, 0.000000, 0.000000], 0.990000, [50.000000, 0.000000, 0.000000]]
+    dragForcePosition0: [0.000000, 0.000000, 0.000000]
+    dragForcePosition1: [0.000000, 0.000000, 0.000000]
+    dragForcePower0: [1.000000, 1.000000, 1.400000]
+    dragForcePower1: [1.000000, 0.000000, 0.000000]
+    dragForceRadius0: 1.000000
+    dragForceRadius1: 1.000000
+    dragForceRotation0: [0.000000, 0.000000, 0.000000]
+    dragForceRotation1: [0.000000, 0.000000, 0.000000]
+    dragForceShape0: "box"
+    dragForceShape1: "box"
+    dragForceTimingType0: "const"
+    dragForceTimingType1: "ovr_prt"
+    effectFormat: 1
+    enableAlphaRemap: false
+    enableFlow: false
+    enableFlowAnimation: false
+    enableFog: true
+    enableFrameBlend: false
+    enableNoise: false
+    endTime: 0.150000
+    endTime0: 15.000000
+    endTime1: 15.000000
+    forceDirection0: [0.000000, 0.000000, 1.000000]
+    forceDirection1: [0.000000, 0.000000, 1.000000]
+    forceIsActive0: true
+    forceIsActive1: true
+    forceName0: "Drag"
+    forceName1: "Gravity"
+    forceType0: "drag"
+    forceType1: "grav"
+    forceWindBias0: 1.000000
+    forceWindBias1: 1.000000
+    forceWindFreq0: 0.000000
+    forceWindFreq1: 0.000000
+    forceWindTurb0: 0.000000
+    forceWindTurb1: 0.000000
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 8.000000
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    gradientMiddlePoint: 0.500000
+    inheritPosition: false
+    isGlobal0: false
+    isGlobal1: false
+    isLong: false
+    isLooped: false
+    killParticles0: false
+    killParticles1: false
+    layerType: "particles"
+    life: 2.000000
+    lifeVariation: 0.500000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: true
+    loopVariation: 0.000000
+    name: "dirt"
+    normalAsReflectionVector0: true
+    normalAsReflectionVector1: true
+    number: 350.000000
+    numberVariation: 25.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    planeScale0: 5.000000
+    planeScale1: 5.000000
+    pointGravityRadius0: 1.000000
+    pointGravityRadius1: 1.000000
+    pointGravityUseRandomPointsOnSphere0: false
+    pointGravityUseRandomPointsOnSphere1: false
+    randomFrameOnStart: true
+    randomSpinDirection: true
+    randomizeReflectionForce0: false
+    randomizeReflectionForce1: false
+    reflectionChaos0: 0.000000
+    reflectionChaos1: 0.000000
+    reflectionPercent0: 100
+    reflectionPercent1: 100
+    rndReflectionForceMax0: 1.100000
+    rndReflectionForceMax1: 1.100000
+    rndReflectionForceMin0: 1.000000
+    rndReflectionForceMin1: 1.000000
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    size: [0.150000, 0.150000]
+    sizeVariation: [0.500000, 0.500000]
+    softParticles: false
+    spin: 15.000000
+    spinOverLife: [0.000000, 100.000000, 0.980000, 10.000000]
+    spinVariation: 5.000000
+    spritePath: "~res:/Gfx/Particles/alpha/dust_exp"
+    startTime: 0.000000
+    startTime0: 0.000000
+    startTime1: 0.000000
+    stripeFadeDistanceFromTop: 0.000000
+    stripeLifetime: 20.000000
+    stripeStartSize: 1.000000
+    stripeUScrollSpeed: 0.000000
+    stripeVScrollSpeed: -0.010000
+    stripeVertexSpawnStep: 1.000000
+    type: "layer"
+    useFresToAlpha: false
+    useNoiseScroll: false
+    usePerspectiveMapping: false
+    useThreePointGradient: false
+    velocity: 2.000000
+    velocityOverLife: [0.000000, 8.000000, 0.049272, 4.554745, 0.980000, 3.000000]
+    velocityThreshold0: 0.300000
+    velocityThreshold1: 0.300000
+    velocityVariation: 12.000000
+    windTurbulenceFrequency0: 0.000000
+    windTurbulenceFrequency1: 0.000000
+    worldAlign0: true
+    worldAlign1: true

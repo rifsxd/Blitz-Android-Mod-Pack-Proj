@@ -1,0 +1,150 @@
+emitter:
+    generateOnSurface: false
+    name: "smokeGaz"
+    emissionVector: [-0.100000, 0.000000, 0.000000]
+    type: "point"
+    size: [0.000000, 0.000000, 0.000000]
+    shortEffect: false
+    emissionRange: 40.000000
+    shockwaveMode: "shockDisabeld"
+    emissionVectorInverted: true
+layer0:
+    life: 0.500000
+    stripeLifetime: 0.000000
+    endTime: 1.000000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [250.000000, 250.000000, 250.000000, 80.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "smokeGaz"
+    layerType: "particles"
+    degradeStrategy: 2
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    effectFormat: 1
+    fresToAlphaBias: 0.000000
+    autoFPS: false
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    size: [0.600000, 0.600000]
+    sprite: "../../../../Data/Gfx/Particles/alpha/fog_white_one"
+    alphaOverLife:
+        externalVariable: "Velosity"
+        value_line: [0.000000, 0.000000, 0.160000, 0.400000, 1.000000, 0.000000]
+        modification_line: [0.000000, 1.000000, 1.000000, 0.500000]
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    enableFog: false
+    stripeInheritPositionForBase: false
+    enableFrameBlend: false
+    loopEndTime: 0.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.500000
+    gradientMiddlePoint: 0.500000
+    lifeVariation: 0.500000
+    applyGlobalForces: false
+    number: 200.000000
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    sizeVariation: [1.000000, 1.000000]
+    sizeOverLifeXY: [0.000000, [0.200000, 0.200000], 1.000000, [1.500000, 1.500000]]
+    velocity: 50.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 50.000000
+    velocityOverLife: [0.000000, 1.000000, 1.000000, 0.000000]
+    frameOverLifeFPS: 0.000000
+    spin: 0.000000
+    angle: 1.000000
+    angleVariation: 360.000000
+    randomFrameOnStart: true
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [0, 1, 1, 0]
+    forceCount: 1
+    force0: [0.000000, 0.000000, 10.000000]
+    forceOverLife0: [0.000000, 0.000000, 0.427200, 0.000000, 1.000000, 10.000000]
+layer1:
+    life: 1.000000
+    stripeLifetime: 0.000000
+    endTime: 0.700000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [246.000000, 161.000000, 44.000000, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "fireGaz"
+    layerType: "particles"
+    degradeStrategy: 2
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    effectFormat: 1
+    fresToAlphaBias: 0.000000
+    autoFPS: false
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    size: [0.000000, 0.000000]
+    sprite: "../../../../Data/Gfx/Particles/additive/fire"
+    alphaOverLife: [0.000000, 0.000000, 0.190000, 0.300000, 1.000000, 0.000000]
+    enableAlphaRemap: false
+    blending: 3
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    enableFog: false
+    stripeInheritPositionForBase: false
+    enableFrameBlend: true
+    loopEndTime: 0.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    lifeVariation: 0.500000
+    applyGlobalForces: false
+    number: 50.000000
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    sizeVariation: [0.000000, 0.000000]
+    sizeOverLifeXY: [0.000000, [0.000000, 0.000000], 0.000000, [0.000000, 0.000000]]
+    velocity: 50.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 50.000000
+    velocityOverLife: [0.000000, 1.000000, 0.600000, 0.000000, 1.000000, 0.000000]
+    frameOverLifeFPS: 0.000000
+    spinOverLife: [0.000400, 1.000000, 1.000000, 0.500000]
+    spin: -90.000000
+    spinVariation: 60.000000
+    angle: 1.000000
+    angleVariation: 360.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [0, 1, 1, 0]
+    forceCount: 1
+    force0: [0.000000, 0.000000, 10.000000]
+    forceOverLife0: [0.000000, 0.000000, 0.427200, 0.000000, 1.000000, 10.000000]
+

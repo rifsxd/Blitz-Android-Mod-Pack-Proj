@@ -1,0 +1,40 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 0.000000
+    emissionVector: [0.000000, 0.000000, 0.000000]
+    emissionVectorInverted: true
+    name: "heaven_glow1"
+    shortEffect: true
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    blending: 1
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 2
+    enableFog: true
+    enableFrameBlend: false
+    endTime: 0.300000
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 120.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "single"
+    life: 0.500000
+    loopEndTime: 0.100000
+    loopSpriteAnimation: true
+    loopVariation: 0.000000
+    name: "Indicator"
+    particleOrientation: 1
+    pivotPoint: [-0.650000, 0.900000]
+    randomFrameOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 1.000000
+    size: [55.000000, 275.000000]
+    sprite: "../../../../../../../Data/Gfx/Particles/UI/Login3.0/Indicator"
+    startTime: 0.000000
+    type: "layer"

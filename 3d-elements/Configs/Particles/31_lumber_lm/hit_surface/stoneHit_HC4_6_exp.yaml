@@ -1,0 +1,64 @@
+emitter:
+    name: "exp"
+    emissionVector: [-0.000000, -0.000000, 1.000000]
+    emissionAngle: 118.713600
+    type: "point"
+    size: [0.000000, 0.000000, 0.000000]
+    shortEffect: true
+    emissionRange: 0.000000
+    emissionVectorInverted: true
+layer0:
+    life: 0.500000
+    stripeLifetime: 0.000000
+    endTime: 0.060000
+    scaleVelocityBase: 0.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    stripeFadeDistanceFromTop: 0.000000
+    name: "exp"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: false
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    size: [0.500000, 0.500000]
+    sprite: "../../../../../../Data/Gfx/Particles/additive/hit_anim"
+    enableAlphaRemap: false
+    blending: 2
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: false
+    enableFrameBlend: true
+    loopEndTime: 5.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: false
+    number: 52.691700
+    sizeOverLifeXY: [0.000000, [3.000000, 3.000000], 1.000000, [8.000000, 8.000000]]
+    velocity: 2.000000
+    animSpeedOverLife: [0.000000, 0.500000, 0.182500, 0.503600, 0.328100, 0.985400]
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 30.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 1, 0]

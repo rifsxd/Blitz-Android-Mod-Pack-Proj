@@ -1,0 +1,105 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 0.000000
+    emissionVector: [0.000000, 0.000000, 0.000000]
+    emissionVectorInverted: true
+    name: "heaven_glow1"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    blending: 0
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: true
+    endTime: 1000.000000
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 0.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "single"
+    life: 10000.000000
+    loopEndTime: 0.000000
+    loopSpriteAnimation: true
+    loopVariation: 0.000000
+    name: "ribbon_anim_1"
+    number: 0.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 1.000000
+    size: [400.000000, 30.000000]
+    sprite: "../../../../../../../Data/Gfx/Particles/UI/Ribbons/base_capture"
+    startTime: 0.700000
+    type: "layer"
+layer1:
+    activeLODS: [1, 1, 1, 1]
+    blending: 3
+    colorOverLife: [0.100000, [255.000000, 255.000000, 255.000000, 75.000000], 0.200000, [255.000000, 255.000000, 255.000000, 150.000000], 0.3000000, [255.000000, 255.000000, 255.000000, 255.000000], 0.486061, [255.000000, 255.000000, 255.000000, 150.000000], 0.700000, [255.000000, 255.000000, 255.000000, 75.000000], 0.996364, [255.000000, 255.000000, 255.000000, 25.000000]]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: true
+    endTime: 0.450000
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "single"
+    life: 0.450000
+    loopEndTime: 0.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "ribbon_anim_1"
+    number: 0.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 1.000000
+    size: [400.000000, 30.000000]
+    sprite: "../../../../../../../Data/Gfx/Particles/UI/Login3.0/ribbon_anim_1"
+    startTime: 0.380000
+    type: "layer"
+layer2:
+    activeLODS: [1, 1, 1, 1]
+    blending: 1
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: false
+    endTime: 0.300000
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 110.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "single"
+    life: 0.400000
+    loopEndTime: 1000.000000
+    loopSpriteAnimation: true
+    name: "Indicator"
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 1.000000
+    size: [400.000000, 32.000000]
+    sprite: "../../../../../../../Data/Gfx/Particles/UI/Ribbons/ghost"
+    startTime: 0.000000
+    type: "layer"
+

@@ -1,0 +1,114 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 0.000000
+    emissionVector: [0.000000, 0.000000, 0.000000]
+    emissionVectorInverted: true
+    emissionVelocityVector: [0.000000, 0.000000, 0.500000]
+    generateOnSurface: false
+    innerRadius: 0.000000
+    name: "dust"
+    radius: 0.100000
+    shockwaveMode: "shockHorizontal"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "oncircle"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.600000, 0.486002, 0.450219, 0.970000, 0.000000]
+    alphaRemapLoopCount: 1.000000
+    angle: 55.000000
+    angleVariation: 155.000000
+    animSpeedOverLife: [0.000000, 18.000000, 0.990000, 6.000000]
+    applyGlobalForces: false
+    autoFPS: false
+    backwardTurbulenceProbability0: 0
+    blending: 1
+    colorOverLife: [206.000000, 202.000000, 196.000000, 255.000000]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    depthDifferenceSlope: 2.000000
+    dragForceBoxSize0: [1.000000, 1.000000, 1.000000]
+    dragForceCount: 1
+    dragForceInfinityRange0: true
+    dragForcePosition0: [0.000000, 0.000000, 0.000000]
+    dragForcePower0: [1.500000, 1.500000, 0.000000]
+    dragForceRadius0: 1.000000
+    dragForceRotation0: [0.000000, 0.000000, 0.000000]
+    dragForceShape0: "box"
+    dragForceTimingType0: "const"
+    effectFormat: 1
+    enableAlphaRemap: false
+    enableFlow: false
+    enableFlowAnimation: false
+    enableFog: true
+    enableFrameBlend: false
+    enableNoise: false
+    endTime: 0.100000
+    endTime0: 15.000000
+    forceDirection0: [0.000000, 0.000000, 1.000000]
+    forceIsActive0: true
+    forceName0: "Drag"
+    forceType0: "drag"
+    forceWindBias0: 1.000000
+    forceWindFreq0: 0.000000
+    forceWindTurb0: 0.000000
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 1.000000
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    gradientMiddlePoint: 0.500000
+    inheritPosition: false
+    isGlobal0: false
+    isLong: false
+    isLooped: false
+    killParticles0: false
+    layerType: "particles"
+    life: 2.000000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "dust"
+    normalAsReflectionVector0: true
+    number: 350.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    planeScale0: 5.000000
+    pointGravityRadius0: 1.000000
+    pointGravityUseRandomPointsOnSphere0: false
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    randomizeReflectionForce0: false
+    reflectionChaos0: 0.000000
+    reflectionPercent0: 100
+    rndReflectionForceMax0: 1.100000
+    rndReflectionForceMin0: 1.000000
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    size: [2.000000, 2.000000]
+    sizeOverLifeXY: [0.000000, [0.000000, 0.000000], 0.030050, [0.862774, 0.862774], 0.980000, [1.000000, 1.000000]]
+    sizeVariation: [3.000000, 3.000000]
+    softParticles: false
+    spin: 5.000000
+    spinOverLife: [0.000000, 5.000000, 0.547579, 3.854014, 0.980000, 0.000000]
+    spinVariation: 4.000000
+    spritePath: "~res:/Gfx/Particles/alpha/fog"
+    startTime: 0.000000
+    startTime0: 0.000000
+    stripeFadeDistanceFromTop: 0.000000
+    stripeLifetime: 20.000000
+    stripeStartSize: 1.000000
+    stripeUScrollSpeed: 0.000000
+    stripeVScrollSpeed: -0.010000
+    stripeVertexSpawnStep: 1.000000
+    type: "layer"
+    useFresToAlpha: false
+    useNoiseScroll: false
+    usePerspectiveMapping: false
+    useThreePointGradient: false
+    velocity: 10.000000
+    velocityOverLife: [0.000000, 5.000000, 0.080134, 0.788321, 0.970000, 0.000000]
+    velocityThreshold0: 0.300000
+    velocityVariation: 15.000000
+    windTurbulenceFrequency0: 0.000000
+    worldAlign0: true

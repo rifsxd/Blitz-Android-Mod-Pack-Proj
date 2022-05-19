@@ -1,0 +1,50 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 30.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionVectorInverted: true
+    name: "spray"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [0, 1, 1, 0]
+    alphaOverLife: [0.000000, 0.000000, 0.155000, 0.547700, 0.676400, 0.058400, 0.814000, 0.000000, 1.000000, 0.000000]
+    blending: 1
+    degradeStrategy: 2
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: false
+    endTime: 0.100000
+    force0: [0.000000, 0.000000, -10.000000]
+    forceCount: 1
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 25.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 2.000000
+    loopEndTime: 4.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "water"
+    number: 400.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    scaleVelocityBase: 0.000000
+    scaleVelocityFactor: 0.000000
+    size: [1.500000, 1.500000]
+    sizeOverLifeXY: [0.000000, [1.000000, 0.980800], 1.000000, [2.428000, 4.293400]]
+    spin: 5.000000
+    spinVariation: 5.000000
+    sprite: "../../../../../Data/Gfx/Particles/alpha/dust_water"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 2.000000
+    velocityOverLife: [0.000000, 1.000000, 0.990000, 0.200000]
+    velocityVariation: 4.000000

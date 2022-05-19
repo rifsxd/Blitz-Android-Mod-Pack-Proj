@@ -1,0 +1,114 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 180.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionVectorInverted: true
+    name: "debris"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.090000, 0.500000, 0.743185, 0.386861, 0.990000, 0.000000]
+    alphaRemapLoopCount: 1.000000
+    angle: 155.000000
+    angleVariation: 350.000000
+    applyGlobalForces: false
+    autoFPS: false
+    blending: 1
+    colorRandom: [0.008393, [87.463036, 87.463036, 87.463036, 255.000000], 0.453237, [89.926071, 89.926071, 89.926071, 255.000000], 0.764988, [29.564201, 29.564201, 29.564201, 255.000000], 0.992806, [118.260696, 118.260696, 118.260696, 255.000000]]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableAlphaRemap: false
+    enableFlow: false
+    enableFlowAnimation: false
+    enableFog: true
+    enableFrameBlend: false
+    enableNoise: false
+    endTime: 0.100000
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 1.000000
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    gradientMiddlePoint: 0.500000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 1.000000
+    lifeVariation: 1.000000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "Smoke"
+    number: 200.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: true
+    randomSpinDirection: true
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    size: [3.000000, 3.000000]
+    sizeOverLifeXY: [0.000000, [0.000000, 0.000000], 0.058824, [0.863650, 0.863650], 0.990000, [1.200000, 1.200000]]
+    sizeVariation: [14.000000, 14.000000]
+    spin: 4.000000
+    spinOverLife: [0.000000, 5.000000, 0.677096, 3.649635, 0.990000, 0.000000]
+    spinVariation: 5.000000
+    sprite: "../../../../../Data/Gfx/Particles/alpha/Fx_DustSpray_two"
+    startTime: 0.000000
+    stripeFadeDistanceFromTop: 0.000000
+    stripeInheritPositionForBase: false
+    stripeLifetime: 20.000000
+    stripeStartSize: 1.000000
+    stripeUScrollSpeed: 0.000000
+    stripeVScrollSpeed: -0.010000
+    stripeVertexSpawnStep: 1.000000
+    type: "layer"
+    useFresToAlpha: false
+    useNoiseScroll: false
+    usePerspectiveMapping: false
+    useThreePointGradient: false
+    velocity: 2.000000
+    velocityOverLife: [0.000000, 10.000000, 0.078910, 2.802919, 0.990000, 0.000000]
+    velocityVariation: 3.000000
+layer1:
+    activeLODS: [1, 1, 0, 0]
+    blending: 0
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: false
+    endTime: 0.100000
+    force0: [0.000000, 0.000000, -30.000000]
+    forceCount: 1
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 30.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 1.500000
+    loopEndTime: 4.000000
+    loopSpriteAnimation: true
+    loopVariation: 10.000000
+    name: "debris"
+    number: 500.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: true
+    randomSpinDirection: false
+    scaleVelocityBase: 0.000000
+    scaleVelocityFactor: 1.000000
+    size: [0.400000, 0.400000]
+    sizeVariation: [0.100000, 0.100000]
+    sprite: "../../../../../Data/Gfx/Particles/Bullet/elements"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.093000, 0.560100, 0.996500, 0.507600]
+    velocityVariation: 35.000000
+

@@ -1,0 +1,108 @@
+emitter:
+    3d: "true"
+    emissionAngle: 0.0000
+    emissionRange: 30.0000
+    emissionVector: [0.0000, 0.0000, 1.0000]
+    emissionVectorInverted: "true"
+    life: 10.0000
+    shortEffect: "false"
+    size: [0.2000, 2.0000, 0.0000]
+    type: "rect"
+
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alignToMotion: 0.0000
+    alphaOverLife: [0.0000, 0.0000, 0.1550, 0.5477, 0.6764, 0.0584, 0.8140, 0.0000, 1.0000, 0.0000]
+    colorOverLife: [239.0000, 255.0000, 254.0000, 255.0000]
+    deltaTime: 0.0000
+    deltaVariation: 0.0000
+    dstBlendFactor: "BLEND_ONE_MINUS_SRC_ALPHA"
+    enableFog: "true"
+    enableFrameBlend: "false"
+    endTime: 0.1000
+    force0: [0.0000, 0.0000, -10.0000]
+    forceCount: 1
+    frameOverLifeEnabled: "true"
+    frameOverLifeFPS: 25.0000
+    inheritPosition: "true"
+    isDisabled: "false"
+    isLooped: "false"
+    layerType: "particles"
+    loopEndTime: 4.0000
+    loopSpriteAnimation: "false"
+    loopVariation: 0.0000
+    name: "water"
+    number: 300.0000
+    particleOrientation: 1
+    pivotPoint: [0.0000, 0.0000]
+    randomFrameOnStart: "false"
+    randomSpinDirection: "true"
+    scaleVelocityBase: 0.0000
+    scaleVelocityFactor: 0.0000
+    size: [3.0000, 3.0000]
+    sizeOverLifeXY: [0.0000, [1.0000, 1.0000], 0.9900, [5.0000, 5.0000]]
+    spin: 5.0000
+    spinVariation: 5.0000
+    sprite: "../../../../../Data/Gfx/Particles/dust_water"
+    srcBlendFactor: "BLEND_SRC_ALPHA"
+    startTime: 0.0000
+    type: "layer"
+    velocity: 2.0000
+    velocityOverLife: [0.0000, 1.0000, 0.9900, 0.2000]
+    life:
+        externalVariable: "velocity"
+        modification_line: [0.0000, 0.3000, 0.9940, 1.0000]
+        value_line: 3.0000
+    velocityVariation:
+        externalVariable: "velocity"
+        modification_line: [0.0000, 0.2000, 0.9900, 1.0000]
+        value_line: 7.0000
+
+layer1:
+    activeLODS: [1, 1, 1, 1]
+    alignToMotion: 0.0000
+    alphaOverLife: [0.0000, 0.0000, 0.1376, 0.3518, 0.8140, 0.0000, 1.0000, 0.0000]
+    deltaTime: 0.0000
+    deltaVariation: 0.0000
+    dstBlendFactor: "BLEND_ONE_MINUS_SRC_ALPHA"
+    enableFog: "true"
+    enableFrameBlend: "false"
+    endTime: 0.1000
+    force0: [0.0000, 0.0000, -10.0000]
+    forceCount: 1
+    frameOverLifeEnabled: "true"
+    frameOverLifeFPS: 25.0000
+    inheritPosition: "true"
+    isDisabled: "false"
+    isLooped: "false"
+    layerType: "particles"
+    loopEndTime: 4.0000
+    loopSpriteAnimation: "false"
+    loopVariation: 0.0000
+    name: "water Clone"
+    number: 300.0000
+    particleOrientation: 1
+    pivotPoint: [0.0000, 0.0000]
+    randomFrameOnStart: "false"
+    randomSpinDirection: "true"
+    scaleVelocityBase: 0.0000
+    scaleVelocityFactor: 0.0000
+    size: [3.0000, 3.0000]
+    sizeOverLifeXY: [0.0000, [1.0000, 1.0000], 0.9900, [5.0000, 5.0000]]
+    spin: 5.0000
+    spinVariation: 5.0000
+    sprite: "../../../../../Data/Gfx/Particles/water"
+    srcBlendFactor: "BLEND_SRC_ALPHA"
+    startTime: 0.0000
+    type: "layer"
+    velocity: 2.0000
+    velocityOverLife: [0.0000, 1.0000, 0.9900, 0.2000]
+    life:
+        externalVariable: "velocity"
+        modification_line: [0.0000, 0.3000, 0.9880, 1.0000]
+        value_line: 3.0000
+    velocityVariation:
+        externalVariable: "velocity"
+        modification_line: [0.0000, 0.2000, 1.0000, 1.0000]
+        value_line: 7.0000
+

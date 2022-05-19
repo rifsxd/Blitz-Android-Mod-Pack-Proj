@@ -1,0 +1,111 @@
+emitter:
+    emissionRange: 80.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionVectorInverted: true
+    generateOnSurface: false
+    innerRadius: 0.000000
+    name: "Debris"
+    radius: 0.200000
+    shockwaveMode: "shockDisabeld"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "sphere"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.090000, 0.850000, 0.628219, 0.485766, 0.990000, 0.000000]
+    alphaRemapLoopCount: 1.000000
+    angle: 0.000000
+    angleVariation: 0.000000
+    applyGlobalForces: false
+    autoFPS: false
+    backwardTurbulenceProbability0: 0
+    blending: 1
+    colorOverLife: [159.000000, 149.000000, 133.000000, 255.000000]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    depthDifferenceSlope: 2.000000
+    dragForceBoxSize0: [1.000000, 1.000000, 1.000000]
+    dragForceCount: 1
+    dragForceInfinityRange0: true
+    dragForcePosition0: [0.000000, 0.000000, 0.000000]
+    dragForcePower0: [0.500000, 0.500000, 0.500000]
+    dragForceRadius0: 1.000000
+    dragForceRotation0: [0.000000, 0.000000, 0.000000]
+    dragForceShape0: "box"
+    dragForceTimingType0: "const"
+    effectFormat: 1
+    enableAlphaRemap: false
+    enableFlow: false
+    enableFlowAnimation: false
+    enableFog: true
+    enableFrameBlend: false
+    enableNoise: false
+    endTime: 0.080000
+    endTime0: 15.000000
+    forceDirection0: [0.000000, 0.000000, 1.000000]
+    forceIsActive0: true
+    forceName0: "Drag"
+    forceType0: "drag"
+    forceWindBias0: 1.000000
+    forceWindFreq0: 0.000000
+    forceWindTurb0: 0.000000
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    gradientMiddlePoint: 0.500000
+    inheritPosition: false
+    isGlobal0: false
+    isLong: true
+    isLooped: false
+    killParticles0: false
+    layerType: "particles"
+    life: 0.800000
+    lifeVariation: 0.250000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: true
+    loopVariation: 0.000000
+    name: "debris1"
+    normalAsReflectionVector0: true
+    number: 300.000000
+    numberVariation: 100.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, -0.400000]
+    planeScale0: 5.000000
+    pointGravityRadius0: 1.000000
+    pointGravityUseRandomPointsOnSphere0: false
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    randomizeReflectionForce0: false
+    reflectionChaos0: 0.000000
+    reflectionPercent0: 100
+    rndReflectionForceMax0: 1.100000
+    rndReflectionForceMin0: 1.000000
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 1.000000
+    size: [2.000000, 1.000000]
+    sizeOverLifeXY: [0.000000, [0.600000, 0.600000], 0.163494, [1.044088, 1.044088], 0.990000, [1.200000, 1.200000]]
+    sizeVariation: [3.000000, 2.500000]
+    softParticles: false
+    spritePath: "~res:/Gfx/Particles/alpha/dust_exp"
+    startTime: 0.000000
+    startTime0: 0.000000
+    stripeFadeDistanceFromTop: 0.000000
+    stripeLifetime: 20.000000
+    stripeStartSize: 1.000000
+    stripeUScrollSpeed: 0.000000
+    stripeVScrollSpeed: -0.010000
+    stripeVertexSpawnStep: 1.000000
+    type: "layer"
+    useFresToAlpha: false
+    useNoiseScroll: false
+    usePerspectiveMapping: false
+    useThreePointGradient: false
+    velocity: 5.000000
+    velocityOverLife: [0.000000, 5.000000, 0.153415, 1.830365, 0.980000, 0.400000]
+    velocityThreshold0: 0.300000
+    velocityVariation: 3.000000
+    windTurbulenceFrequency0: 0.000000
+    worldAlign0: true
+

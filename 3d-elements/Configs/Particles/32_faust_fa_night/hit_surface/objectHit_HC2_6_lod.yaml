@@ -1,0 +1,77 @@
+emitter:
+    generateOnSurface: false
+    name: "lod"
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionAngle: 0.000000
+    type: "point"
+    shortEffect: false
+    emissionRange: 90.000000
+    shockwaveMode: "shockDisabeld"
+    emissionVectorInverted: true
+    size: [0.000000, 0.000000, 0.000000]
+layer0:
+    life: 2.000000
+    stripeLifetime: 0.000000
+    endTime: 0.060000
+    scaleVelocityBase: 0.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [89.000000, 97.000000, 111.000000, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "lod"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    effectFormat: 1
+    fresToAlphaBias: 0.000000
+    autoFPS: false
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -10.000000]
+    size: [1.500000, 1.500000]
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/fog"
+    alphaOverLife: [0.000000, 1.000000, 1.000000, 0.000000]
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    enableFog: true
+    stripeInheritPositionForBase: false
+    enableFrameBlend: false
+    loopEndTime: 4.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    lifeVariation: 0.500000
+    applyGlobalForces: false
+    number: 50.000000
+    loopVariation: 0.000000
+    loopSpriteAnimation: false
+    sizeOverLifeXY: [0.000000, [1.000000, 1.000000], 1.000000, [2.500000, 2.500000]]
+    velocity: 1.000000
+    frameOverLifeEnabled: true
+    velocityVariation: 10.000000
+    velocityOverLife: [0.000000, 1.000000, 0.147400, 0.094900, 0.990000, 0.000000]
+    frameOverLifeFPS: 100.000000
+    spin: 20.000000
+    spinVariation: 20.000000
+    angle: 90.000000
+    angleVariation: 90.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [0, 0, 1, 0]
+    forceCount: 1

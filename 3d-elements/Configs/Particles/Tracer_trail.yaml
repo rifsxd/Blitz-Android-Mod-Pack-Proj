@@ -1,0 +1,147 @@
+version: 2
+emitter:
+    emissionRange: 90.000000
+    emissionVector: [0.000000, 0.000000, 0.000000]
+    generateOnSurface: false
+    innerRadius: 0.000000
+    life: 100.000000
+    name: "Tracer_trail"
+    radius: 1.000000
+    shockwaveMode: "shockDisabeld"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "rect"
+layers:
+-   activeLODS: [1, 1, 1, 1]
+    stripeFadeDistanceFromBack: 20.000000
+    stripeFadeDistanceFromFront: 1.000000
+    stripeSizeOverLifeProp: 0.500000
+    stripeColorOverLife: ["curve", 3, 1, 1.000000, 0.000000, 1, 1.000000, 0.114395, 1, 1.000000, 0.999047, 3, 1, 1.000000, 0.000000, 1, 1.000000, 0.114395, 1, 1.000000, 0.999047, 3, 1, 1.000000, 0.000000, 1, 1.000000, 0.114395, 1, 1.000000, 0.999047, 3, 1, 1.000000, 0.000000, 1, 1.000000, 0.114395, 1, 0.000000, 0.999047]
+    endTime: 1.000000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 10.000000
+    stripeTextureTileOverLife: 0.010000
+    particleOrientation: 32
+    inheritPosition: false
+    isLong: false
+    stripeLifetime: 0.700000
+    stripeStartSize: 1.500000
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: -0.050000
+    layerType: "particlesStripe"
+    life: 0.800000
+    name: "treil"
+    type: "layer"
+    degradeStrategy: 0
+    randomSpinDirection: false
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    effectFormat: 1
+    noiseVScrollSpeed: -0.600000
+    fresToAlphaBias: -170141183460469231731687303715884105728.000000
+    autoFPS: false
+    fresToAlphaPower: -170141183460469231731687303715884105728.000000
+    alphaRemapLoopCount: 1.000000
+    alphaRemapPath: "~res:/~res:"
+    spritePath: "~res:/Gfx/Particles/TracerTrail/Trail_1/trail_smoke_1"
+    alphaOverLife: ["curve", 3, 1, 0.500000, 0.000000, 1, 1.000000, 0.003100, 1, 1.000000, 1.000000]
+    enableAlphaRemap: false
+    blending: 3
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: true
+    useThreePointGradient: false
+    enableFog: true
+    stripeInheritPositionForBase: true
+    enableFrameBlend: false
+    loopEndTime: 100.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.100000
+    gradientMiddlePoint: 0.500000
+    flowSpeed: 0.001000
+    noiseScale: 0.005000
+    flowSpeedVariation: 1.000000
+    isLooped: false
+    flowOffset: 0.011000
+    usePerspectiveMapping: true
+    noiseUScrollSpeedOverLife: 1.000000
+    noiseUScrollSpeed: 0.100000
+    noiseVScrollSpeedOverLife: 1.000000
+    applyGlobalForces: false
+    number: 1.000000
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    velocity: 1.000000
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    randomFrameOnStart: false
+    deltaVariation: 0.000000
+-   activeLODS: [1, 1, 1, 1]
+    alphaOverLife: ["curve", 3, 1, 0.500000, 0.000000, 1, 1.000000, 0.003100, 1, 1.000000, 1.000000]
+    alphaRemapLoopCount: 1.000000
+    alphaRemapPath: "~res:/~res:"
+    applyGlobalForces: false
+    autoFPS: false
+    blending: 3
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    depthDifferenceSlope: 2.000000
+    enableAlphaRemap: false
+    enableFlow: false
+    enableFlowAnimation: false
+    enableFog: false
+    enableFrameBlend: false
+    enableNoise: false
+    endTime: 0.100000
+    forces: []
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    gradientMiddlePoint: 0.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "particlesStripe"
+    life: 0.500000
+    loopEndTime: 0.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "Layer"
+    number: 1.000000
+    particleOrientation: 32
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomOffsetOnStart: false
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    simplifiedForces: []
+    softParticles: false
+    spritePath: "~res:/Gfx/Particles/TracerTrail/TrailTracer"
+    startTime: 0.000000
+    stripeFadeDistanceFromBack: 20.000000
+    stripeFadeDistanceFromFront: 1.000000
+    stripeLifetime: 0.150000
+    stripeSizeOverLifeProp: 1.500000
+    stripeStartSize: 1.500000
+    stripeTextureTileOverLife: ["curve", 1, 0, 0.060000, 0.000000]
+    stripeUScrollSpeed: 0.000000
+    stripeVScrollSpeed: 0.000000
+    stripeVertexSpawnStep: 1.000000
+    useFresToAlpha: true
+    useNoiseScroll: false
+    usePerspectiveMapping: true
+    useThreePointGradient: false
+
+
+
+
+
+
+
+
+

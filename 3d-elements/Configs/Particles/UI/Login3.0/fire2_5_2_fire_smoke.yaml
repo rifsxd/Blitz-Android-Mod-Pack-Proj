@@ -1,0 +1,50 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 60.000000
+    emissionVector: [0.000000, -1.000000, 0.000000]
+    emissionVectorInverted: true
+    name: "fire_smoke"
+    shortEffect: false
+    size: [200.000000, 0.000000, 20.000000]
+    type: "rect"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 1.000000, 0.773333, 1.000000, 0.990000, 0.000000]
+    angle: 90.000000
+    angleVariation: 90.000000
+    blending: 3
+    colorOverLife: [0.000000, [242.015564, 79.836571, 34.980541, 255.000000], 0.992857, [242.015564, 151.653687, 67.120621, 255.000000]]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: false
+    enableFrameBlend: true
+    endTime: 1000.000000
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 30.000000
+    inheritPosition: true
+    isLong: true
+    isLooped: false
+    layerType: "particles"
+    life: 0.500000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "fire2"
+    number: 25.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    size: [60.000000, 60.000000]
+    sizeVariation: [20.000000, 20.000000]
+    spin: 30.000000
+    spinVariation: 30.000000
+    sprite: "../../../../Gfx/Particles/UI/Login3.0/smoke"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 30.000000
+    velocityVariation: 15.000000

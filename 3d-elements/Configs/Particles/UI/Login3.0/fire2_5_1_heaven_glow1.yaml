@@ -1,0 +1,44 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 1.000000
+    emissionVector: [0.000000, 0.000000, 0.010000]
+    emissionVectorInverted: true
+    name: "heaven_glow1"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.248899, 0.000000, 0.460952, 0.959124, 0.655556, 0.000000, 0.990100, 0.000000]
+    blending: 3
+    colorOverLife: [247.918289, 81.735405, 21.307392, 255.000000]
+    degradeStrategy: 0
+    deltaTime: 2.000000
+    deltaVariation: 2.000000
+    effectFormat: 1
+    enableFog: false
+    enableFrameBlend: false
+    endTime: 1000.000000
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    inheritPosition: true
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 1.000000
+    lifeVariation: 1.000000
+    loopEndTime: 1000.000000
+    loopSpriteAnimation: true
+    loopVariation: 2.000000
+    name: "glow"
+    number: 3.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: true
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    size: [300.000000, 300.000000]
+    sprite: "../../../../Gfx/Particles/UI/Login3.0/o2_expGlowB"
+    startTime: 0.000000
+    type: "layer"

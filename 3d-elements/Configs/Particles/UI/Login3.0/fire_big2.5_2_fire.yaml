@@ -1,0 +1,96 @@
+emitter:
+    emissionAngle: 1.000000
+    emissionRange: 20.000000
+    emissionVector: [-0.900000, -0.600000, 0.000000]
+    emissionVectorInverted: true
+    name: "fire"
+    radius: 1.000000
+    shortEffect: false
+    size: [0.000000, 1.200000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.215238, 0.827565, 1.000000, 0.000000]
+    angle: 1.000000
+    angleVariation: 360.000000
+    blending: 3
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: true
+    endTime: 10000.000000
+    force0: [-15.000000, 0.000000, 0.000000]
+    forceCount: 1
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 17.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 2.000000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "fire1"
+    number: 4.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.002000
+    size: [100.000000, 100.000000]
+    sizeOverLifeXY: [0.000000, [0.300000, 0.300000], 0.990000, [1.500000, 1.500000]]
+    sizeVariation: [20.000000, 20.000000]
+    spin: 40.000000
+    spinVariation: 20.000000
+    sprite: "../../../../Gfx/Particles/UI/Login3.0/exp_anim_L"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 30.000000
+    velocityVariation: 60.000000
+layer1:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.230476, 0.778751, 0.775238, 0.807027, 1.000000, 0.000000]
+    angle: 1.000000
+    angleVariation: 360.000000
+    blending: 3
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: true
+    endTime: 10000.000000
+    force0: [-15.000000, 0.000000, 0.000000]
+    forceCount: 1
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 13.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 2.000000
+    loopEndTime: 100.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "fire2"
+    number: 4.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.002000
+    size: [150.000000, 150.000000]
+    sizeOverLifeXY: [0.000000, [0.300000, 0.300000], 0.990000, [1.500000, 1.500000]]
+    sizeVariation: [20.000000, 20.000000]
+    spin: 20.000000
+    spinVariation: 20.000000
+    sprite: "../../../../Gfx/Particles/UI/Login3.0/exp_anim_fire"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 30.000000
+    velocityVariation: 40.000000

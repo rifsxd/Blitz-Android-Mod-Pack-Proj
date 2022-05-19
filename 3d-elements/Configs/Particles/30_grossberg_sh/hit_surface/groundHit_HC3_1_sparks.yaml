@@ -1,0 +1,126 @@
+emitter:
+    size: [0.000000, 0.000000, 0.000000]
+    name: "sparks"
+    type: "point"
+    emissionVectorInverted: true
+    shortEffect: false
+    emissionAngle: 0.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionRange: 100.000000
+layer0:
+    activeLODS: [1, 1, 0, 0]
+    stripeVScrollSpeed: 0.000000
+    stripeLifetime: 0.000000
+    deltaTime: 0.000000
+    startTime: 0.000000
+    stripeVertexSpawnStep: 1.000000
+    layerType: "particles"
+    lifeVariation: 0.700000
+    isLong: true
+    stripeStartSize: 0.000000
+    number: 1000.000000
+    stripeFadeDistanceFromTop: 0.000000
+    loopSpriteAnimation: true
+    stripeUScrollSpeed: 0.000000
+    enableFog: true
+    name: "sparks1"
+    type: "layer"
+    degradeStrategy: 0
+    pivotPoint: [-0.000000, -0.000000]
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/Iskr_one"
+    enableAlphaRemap: false
+    blending: 2
+    enableFlow: false
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    enableFlowAnimation: false
+    stripeInheritPositionForBase: false
+    frameOverLifeEnabled: false
+    enableNoise: false
+    useNoiseScroll: false
+    scaleVelocityBase: 0.010000
+    forceCount: 1
+    scaleVelocityFactor: 0.200000
+    life: 0.700000
+    size: [0.005000, 0.050000]
+    sizeVariation: [0.025000, 0.025000]
+    velocity: 1.000000
+    usePerspectiveMapping: false
+    velocityVariation: 20.000000
+    velocityOverLife: [0.000000, 1.000000, 0.093000, 0.560100, 0.996500, 0.507600]
+    randomSpinDirection: false
+    alphaOverLife: 0.500000
+    colorOverLife: [255.000000, 94.000000, 30.000000, 255.000000]
+    frameOverLifeFPS: 0.000000
+    randomFrameOnStart: false
+    endTime: 0.100000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -30.000000]
+layer1:
+    activeLODS: [1, 1, 0, 0]
+    stripeVScrollSpeed: 0.000000
+    stripeLifetime: 0.000000
+    deltaTime: 0.000000
+    startTime: 0.000000
+    stripeVertexSpawnStep: 1.000000
+    layerType: "particles"
+    lifeVariation: 0.200000
+    isLong: true
+    stripeStartSize: 0.000000
+    number: 200.000000
+    stripeFadeDistanceFromTop: 0.000000
+    loopSpriteAnimation: true
+    stripeUScrollSpeed: 0.000000
+    enableFog: false
+    name: "sparks2"
+    type: "layer"
+    degradeStrategy: 0
+    pivotPoint: [-0.000000, -0.000000]
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/Iskr"
+    enableAlphaRemap: false
+    blending: 3
+    enableFlow: false
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    enableFlowAnimation: false
+    stripeInheritPositionForBase: false
+    frameOverLifeEnabled: false
+    enableNoise: false
+    useNoiseScroll: false
+    scaleVelocityBase: 0.010000
+    forceCount: 1
+    scaleVelocityFactor: 0.200000
+    life: 0.400000
+    size: [0.005000, 0.050000]
+    sizeVariation: [0.025000, 0.025000]
+    velocity: 1.000000
+    usePerspectiveMapping: false
+    velocityVariation: 20.000000
+    forceOverLife0: [0.000000, 1.000000, 1.000000, 0.000000]
+    velocityOverLife: [0.000000, 1.000000, 0.093000, 0.560100, 0.996500, 0.507600]
+    randomSpinDirection: false
+    alphaOverLife: 0.311900
+    colorOverLife: [255.000000, 233.000000, 222.000000, 255.000000]
+    frameOverLifeFPS: 0.000000
+    randomFrameOnStart: false
+    endTime: 0.100000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -20.000000]

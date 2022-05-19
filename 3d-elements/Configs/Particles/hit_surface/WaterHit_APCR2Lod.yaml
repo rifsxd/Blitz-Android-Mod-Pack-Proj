@@ -1,0 +1,49 @@
+emitter:
+    emissionRange: 1.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionVectorInverted: true
+    name: "lod"
+    shortEffect: false
+    size: [0.000000, 0.000000, 0.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 0, 0, 0]
+    alphaOverLife: [0.000000, 0.000000, 0.110000, 1.000000, 0.425100, 0.000000, 1.000000, 0.000000]
+    blending: 1
+    colorOverLife: [213.000000, 238.000000, 235.000000, 255.000000]
+    degradeStrategy: 0
+    deltaTime: 0.000000
+    deltaVariation: 0.000000
+    effectFormat: 1
+    enableFog: true
+    enableFrameBlend: false
+    endTime: 0.060000
+    force0: [0.000000, 0.000000, -10.000000]
+    forceCount: 1
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 25.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "single"
+    life: 2.000000
+    loopEndTime: 4.000000
+    loopSpriteAnimation: false
+    loopVariation: 0.000000
+    name: "dustlod"
+    number: 60.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: false
+    randomSpinDirection: true
+    scaleVelocityBase: 0.000000
+    scaleVelocityFactor: 0.000000
+    size: [0.500000, 0.500000]
+    sizeOverLifeXY: [0.000000, [0.500000, 3.000000], 1.000000, [1.000000, 4.000000]]
+    sizeVariation: [0.100000, 0.100000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/water_splash"
+    startTime: 0.000000
+    type: "layer"
+    velocity: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.150000, 0.200000, 0.990000, 0.000000]
+    velocityVariation: 1.000000

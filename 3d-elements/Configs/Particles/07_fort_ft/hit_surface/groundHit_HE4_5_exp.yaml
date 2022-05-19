@@ -1,0 +1,43 @@
+emitter:
+    size: [0.000000, 0.000000, 0.000000]
+    name: "exp"
+    type: "point"
+    emissionVectorInverted: true
+    shortEffect: true
+    emissionAngle: 118.713600
+    emissionVector: [-0.000000, -0.000000, 1.000000]
+    emissionRange: 0.000000
+layer0:
+    name: "exp"
+    enableFog: false
+    sprite: "../../../../../../Data/Gfx/Particles/additive/exp_anim_fire"
+    type: "layer"
+    isLong: false
+    layerType: "particles"
+    blending: 2
+    degradeStrategy: 0
+    pivotPoint: [-0.000000, -0.000000]
+    loopVariation: 0.000000
+    enableFrameBlend: true
+    scaleVelocityBase: 0.000000
+    scaleVelocityFactor: 0.000000
+    life: 0.500000
+    number: 52.691700
+    size: [0.500000, 0.500000]
+    sizeOverLifeXY: [0.000000, [1.000000, 1.000000], 1.000000, [8.000000, 8.000000]]
+    velocity: 2.000000
+    randomSpinDirection: false
+    frameOverLifeEnabled: true
+    frameOverLifeFPS: 40.000000
+    randomFrameOnStart: false
+    loopSpriteAnimation: false
+    deltaTime: 0.000000
+    startTime: 0.000000
+    endTime: 0.060000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 5.000000
+    inheritPosition: false
+    particleOrientation: 1
+    activeLODS: [1, 1, 1, 0]
+    effectFormat: 1

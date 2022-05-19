@@ -1,0 +1,45 @@
+emitter:
+    emissionAngle: 0.000000
+    emissionRange: 60.000000
+    emissionVector: [0.000000, -1.000000, 0.000000]
+    emissionVectorInverted: true
+    name: "heaven_glow"
+    shortEffect: false
+    size: [200.000000, 0.000000, 20.000000]
+    type: "point"
+layer0:
+    activeLODS: [1, 1, 1, 1]
+    alphaOverLife: [0.000000, 0.000000, 0.214137, 0.072555, 0.480000, 0.700000, 0.740125, 0.075552, 0.990100, 0.000000]
+    angle: -160.000000
+    blending: 3
+    colorOverLife: [243.194550, 87.143967, 30.400778, 255.000000]
+    degradeStrategy: 0
+    deltaTime: 2.000000
+    deltaVariation: 2.000000
+    effectFormat: 1
+    enableFog: false
+    enableFrameBlend: false
+    endTime: 1000.000000
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    inheritPosition: false
+    isLong: false
+    isLooped: false
+    layerType: "particles"
+    life: 1.000000
+    lifeVariation: 1.000000
+    loopEndTime: 1000.000000
+    loopSpriteAnimation: true
+    loopVariation: 2.000000
+    name: "glow"
+    number: 3.000000
+    particleOrientation: 1
+    pivotPoint: [0.000000, 0.000000]
+    randomFrameOnStart: true
+    randomSpinDirection: false
+    scaleVelocityBase: 1.000000
+    scaleVelocityFactor: 0.000000
+    size: [800.000000, 500.000000]
+    sprite: "../../../../Gfx/Particles/UI/Login3.0/Fx_DustSpray_two"
+    startTime: 0.000000
+    type: "layer"

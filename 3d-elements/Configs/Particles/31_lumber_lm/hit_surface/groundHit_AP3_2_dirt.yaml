@@ -1,0 +1,181 @@
+emitter:
+    size: [0.000000, 0.000000, 0.000000]
+    name: "dirt"
+    type: "point"
+    emissionVectorInverted: true
+    shortEffect: false
+    emissionAngle: 0.000000
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionRange: 30.000000
+layer0:
+    activeLODS: [0, 1, 0, 0]
+    stripeVScrollSpeed: 0.000000
+    stripeLifetime: 0.000000
+    deltaTime: 0.000000
+    startTime: 0.030000
+    stripeVertexSpawnStep: 1.000000
+    layerType: "particles"
+    lifeVariation: 1.000000
+    isLong: false
+    stripeStartSize: 0.000000
+    number: 100.000000
+    stripeFadeDistanceFromTop: 0.000000
+    loopSpriteAnimation: false
+    stripeUScrollSpeed: 0.000000
+    enableFog: true
+    name: "dirt"
+    type: "layer"
+    degradeStrategy: 2
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/Dirt_exp_white"
+    enableAlphaRemap: false
+    blending: 1
+    enableFlow: false
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    enableFlowAnimation: false
+    stripeInheritPositionForBase: false
+    frameOverLifeEnabled: true
+    enableNoise: false
+    useNoiseScroll: false
+    scaleVelocityBase: 0.000000
+    forceCount: 1
+    scaleVelocityFactor: 0.000000
+    life: 1.000000
+    size: [1.250000, 1.250000]
+    usePerspectiveMapping: false
+    sizeOverLifeXY: [0.000000, [1.000000, 2.000000], 1.000000, [4.000000, 4.000000]]
+    velocity: 10.000000
+    forceOverLife0: [0.000000, 1.000000, 0.990000, 0.000000]
+    velocityOverLife: [0.000000, 0.300000, 0.310500, 0.136600]
+    randomSpinDirection: true
+    alphaOverLife: [0.000000, 0.000000, 0.101800, 0.007300, 0.287700, 0.854000, 0.543900, 0.157700, 1.000000, 0.000000]
+    colorOverLife: [192.000000, 152.000000, 131.000000, 255.000000]
+    frameOverLifeFPS: 25.000000
+    randomFrameOnStart: false
+    endTime: 0.060000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -3.000000]
+layer1:
+    activeLODS: [0, 1, 0, 0]
+    stripeVScrollSpeed: 0.000000
+    stripeLifetime: 0.000000
+    deltaTime: 0.000000
+    startTime: 0.000000
+    stripeVertexSpawnStep: 1.000000
+    layerType: "particles"
+    isLong: false
+    stripeStartSize: 0.000000
+    number: 80.000000
+    stripeFadeDistanceFromTop: 0.000000
+    loopSpriteAnimation: false
+    stripeUScrollSpeed: 0.000000
+    enableFog: true
+    name: "dust"
+    type: "layer"
+    degradeStrategy: 2
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/dust_exp"
+    enableAlphaRemap: false
+    blending: 1
+    enableFlow: false
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    enableFlowAnimation: false
+    stripeInheritPositionForBase: false
+    frameOverLifeEnabled: true
+    enableNoise: false
+    useNoiseScroll: false
+    scaleVelocityBase: 0.000000
+    forceCount: 1
+    scaleVelocityFactor: 0.000000
+    life: 4.000000
+    size: [1.250000, 1.250000]
+    usePerspectiveMapping: false
+    velocityVariation: 8.000000
+    sizeOverLifeXY: [0.000000, [1.000000, 3.000000], 1.000000, [4.000000, 4.000000]]
+    velocity: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.147400, 0.094900, 0.990000, 0.000000]
+    randomSpinDirection: true
+    alphaOverLife: [0.000000, 0.000000, 0.091200, 0.908800, 1.000000, 0.000000]
+    colorOverLife: [192.000000, 152.000000, 131.000000, 255.000000]
+    frameOverLifeFPS: 25.000000
+    randomFrameOnStart: true
+    endTime: 0.060000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -10.000000]
+layer2:
+    activeLODS: [0, 1, 0, 0]
+    stripeVScrollSpeed: 0.000000
+    stripeLifetime: 0.000000
+    deltaTime: 0.000000
+    startTime: 0.000000
+    stripeVertexSpawnStep: 1.000000
+    layerType: "particles"
+    isLong: false
+    stripeStartSize: 0.000000
+    number: 80.000000
+    stripeFadeDistanceFromTop: 0.000000
+    loopSpriteAnimation: false
+    stripeUScrollSpeed: 0.000000
+    enableFog: true
+    name: "dust1"
+    type: "layer"
+    degradeStrategy: 2
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    sprite: "../../../../../../Data/Gfx/Particles/alpha/fog"
+    enableAlphaRemap: false
+    blending: 1
+    enableFlow: false
+    loopVariation: 0.000000
+    enableFrameBlend: false
+    enableFlowAnimation: false
+    stripeInheritPositionForBase: false
+    frameOverLifeEnabled: true
+    enableNoise: false
+    useNoiseScroll: false
+    scaleVelocityBase: 0.000000
+    forceCount: 1
+    scaleVelocityFactor: 0.000000
+    life: 4.000000
+    size: [1.250000, 1.250000]
+    usePerspectiveMapping: false
+    velocityVariation: 10.000000
+    sizeOverLifeXY: [0.000000, [1.000000, 3.000000], 1.000000, [4.000000, 4.000000]]
+    velocity: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.147400, 0.094900, 0.990000, 0.000000]
+    randomSpinDirection: true
+    alphaOverLife: [0.000000, 0.000000, 0.098200, 0.901800, 1.000000, 0.000000]
+    colorOverLife: [192.000000, 152.000000, 131.000000, 255.000000]
+    frameOverLifeFPS: 25.000000
+    randomFrameOnStart: false
+    endTime: 0.060000
+    isLooped: false
+    deltaVariation: 0.000000
+    loopEndTime: 4.000000
+    inheritPosition: false
+    particleOrientation: 1
+    effectFormat: 1
+    force0: [0.000000, 0.000000, -10.000000]
